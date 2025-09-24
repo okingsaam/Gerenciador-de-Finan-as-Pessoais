@@ -1,4 +1,7 @@
 *.py linguist-detectable=true
-*.html linguist-detectable=false
 *.tex linguist-detectable=false
+*.html linguist-detectable=false
 *.spec linguist-detectable=false
+git add .gitattributes
+git commit -m "ajusta detecção de linguagem para priorizar Python"
+git push
