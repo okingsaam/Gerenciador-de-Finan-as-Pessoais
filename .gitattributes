@@ -1,3 +1,5 @@
 *.py linguist-detectable=true
 *.tex linguist-detectable=false
+*.html linguist-detectable=false
+*.spec linguist-detectable=false
 docs/* linguist-documentation
