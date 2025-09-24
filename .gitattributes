@@ -1,19 +1,9 @@
-# 🐍 Prioriza arquivos Python
-*.py linguist-detectable=true
+# ---- Ajuste de linguagens no GitHub ----
+# Força todos os arquivos .py a serem contabilizados como Python
+*.py linguist-language=Python
 
-# ❌ Ignora arquivos que não devem contar na análise
-*.md linguist-detectable=false
-*.csv linguist-detectable=false
-*.html linguist-detectable=false
+# Ignora arquivos LaTeX/TeX para não aparecer na barra de linguagens
 *.tex linguist-detectable=false
-*.spec linguist-detectable=false
-*.yml linguist-detectable=false
-*.yaml linguist-detectable=false
-*.log linguist-detectable=false
-*.txt linguist-detectable=false
-
-# 📁 Ignora pastas auxiliares
-.github/* linguist-generated
-build/* linguist-generated
-dist/* linguist-generated
-docs/* linguist-documentation
+*.cls linguist-detectable=false
+*.sty linguist-detectable=false
+*.bib linguist-detectable=false
