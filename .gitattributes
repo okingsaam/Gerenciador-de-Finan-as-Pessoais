@@ -1,7 +1,19 @@
-# Ignorar arquivos de documentação LaTeX
-*.tex linguist-detectable=false
-*.cls linguist-detectable=false
-*.sty linguist-detectable=false
+# 🐍 Prioriza arquivos Python
+*.py linguist-detectable=true
 
-# Garantir que arquivos Python sejam contados
-*.py linguist-language=Python
+# ❌ Ignora arquivos que não devem contar na análise
+*.md linguist-detectable=false
+*.csv linguist-detectable=false
+*.html linguist-detectable=false
+*.tex linguist-detectable=false
+*.spec linguist-detectable=false
+*.yml linguist-detectable=false
+*.yaml linguist-detectable=false
+*.log linguist-detectable=false
+*.txt linguist-detectable=false
+
+# 📁 Ignora pastas auxiliares
+.github/* linguist-generated
+build/* linguist-generated
+dist/* linguist-generated
+docs/* linguist-documentation
