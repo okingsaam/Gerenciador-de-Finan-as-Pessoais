@@ -1,2 +1,15 @@
-
+# 🐍 Prioriza arquivos Python
 *.py linguist-detectable=true
+
+# ❌ Ignora arquivos que distorcem a análise
+*.tex linguist-detectable=false
+*.html linguist-detectable=false
+*.spec linguist-detectable=false
+*.csv linguist-detectable=false
+*.md linguist-detectable=false
+
+# 📁 Ignora pastas de documentação ou build
+docs/* linguist-documentation
+build/* linguist-generated
+dist/* linguist-generated
+.github/* linguist-generated
