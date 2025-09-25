@@ -1,77 +1,108 @@
-# 💰 Gerenciador de Finanças Pessoais  
+<h1 align="center">💰 Gerenciador de Finanças Pessoais</h1>
 
-![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)  
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)  
-![Status](https://img.shields.io/badge/Status-Finalizado-green)  
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.11+-blue.svg" alt="Python Badge"/>
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License Badge"/>
+  <img src="https://img.shields.io/badge/Status-Finalizado-success.svg" alt="Status Badge"/>
+</p>
 
-Aplicativo **desktop em Python** para controle financeiro pessoal com interface gráfica.  
-Permite adicionar transações, gerar relatórios mensais e visualizar gráficos interativos — tudo de forma simples e intuitiva.  
+<p align="center">
+  Aplicativo <strong>desktop em Python</strong> para controle financeiro pessoal com interface gráfica.<br>
+  O sistema permite gerenciar transações, gerar relatórios e visualizar gráficos de forma <strong>intuitiva e profissional</strong>.
+</p>
+
+---
+
+## 📖 Sobre o Projeto  
+
+O **Gerenciador de Finanças Pessoais** foi desenvolvido com foco em **organização, simplicidade e clareza visual**.  
+Com ele, você pode cadastrar transações, armazená-las em arquivo, analisar relatórios mensais e visualizar gráficos que ajudam a compreender melhor sua vida financeira.  
 
 ---
 
 ## 🚀 Funcionalidades  
 
-- ➕ Adição de transações (valor, categoria, tipo, descrição)  
-- 💾 Armazenamento automático em CSV  
-- 📊 Relatório por mês e ano  
-- 🥧 Gráfico de pizza embutido na interface  
-- 🖼️ Interface gráfica com Tkinter  
-- 🎨 Visual limpo e responsivo  
+- ➕ **Cadastro de transações** (valor, categoria, tipo, descrição)  
+- 💾 **Armazenamento automático em CSV**  
+- 📊 **Relatórios detalhados por mês e ano**  
+- 🥧 **Gráficos de pizza interativos** integrados à interface  
+- 🖼️ **Interface gráfica responsiva** com Tkinter  
+- 🎨 **Visual minimalista e funcional**  
 
 ---
 
-## 🎥 Demonstração  
 
-> *(Adicione aqui um gif ou screenshot do app rodando)*  
 
-![Screenshot](screenshot.png) <!-- substitua com sua imagem ou gif -->
 
----
-
-## 🛠️ Tecnologias utilizadas  
+## 🛠️ Tecnologias Utilizadas  
 
 - **Python 3.11+**  
-- **Tkinter**  
-- **Matplotlib**  
-- **PyInstaller** (opcional, para gerar `.exe`)  
+- **Tkinter** → Criação da interface gráfica  
+- **Matplotlib** → Gráficos estatísticos  
+- **PyInstaller** → Geração de executáveis (.exe)  
 
 ---
 
-## 📦 Como executar  
+## ⚙️ Como Executar  
 
 1. Clone o repositório:  
 ```bash
 git clone https://github.com/okingsaam/gerenciador-financas.git
 cd gerenciador-financas
 ````
-2.Instale as dependências:
+2. Instale as dependências::pip install matplotlib
 ```
 pip install matplotlib
-````
-3.python interface.py
 ```
-python interface.py
-````
-🧱 Estrutura do projeto
+---
+📂 Estrutura do Projeto
 ```
 gerenciador-financas/
-├── interface.py
+├── interface.py              # Interface principal do sistema
 ├── finance/
-│   ├── transaction.py
-│   └── report.py
+│   ├── transaction.py        # Classe responsável pelas transações
+│   └── report.py             # Classe para geração de relatórios
 ├── data/
-│   └── transactions.csv
+│   └── transactions.csv      # Base de dados em CSV
 ```
-📦 Gerar executável (.exe)
+---
+📦 Criar Executável (.exe)
 ```
 pyinstaller --onefile --windowed interface.py
 ```
-## ✨ Autor  
+---
+📌 Roadmap (Possíveis Melhorias)
 
-Feito com 💻 e visão por **Douglas (King Sam)**  
-📍 Salvador, Bahia  
+ Exportar relatórios em PDF e Excel
 
-📬 **Contato:**  
-- 🐙 [GitHub: okingsaam](https://github.com/okingsaam)  
-- 💼 [LinkedIn: Douglas Santos](https://www.linkedin.com/in/douglas-santos-30257a327/)  
+ Filtro de transações por categoria e intervalo de datas
 
+ Novos gráficos: linha, barras comparativas
+
+ Integração com SQLite/MySQL
+
+ Adição de tema escuro (Dark Mode)
+ ---
+ ```
+ 🧑‍💻 Autor
+
+Feito com dedicação e visão por Douglas Santos (King Sam)
+📍 Salvador - BA, Brasil
+
+📬 Contato:
+
+🐙 GitHub: okingsaam
+
+💼 LinkedIn: Douglas Santos
+
+✉️ Email: okingsaam@gmail.com
+```
+---
+
+Esse modelo já tem cara de **projeto de desenvolvedor profissional**, com:  
+✔️ Estrutura clara  
+✔️ Layout moderno  
+✔️ Seções bem distribuídas  
+✔️ Roadmap (mesmo sendo finalizado, mostra visão de evolução)  
+
+👉 Quer que eu monte também um **banner personalizado em imagem** (com seu nome, título e ícones de tecnologias) pra colocar no topo do README? Isso dá um diferencial enorme no GitHub.
